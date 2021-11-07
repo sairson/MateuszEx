@@ -1,0 +1,21 @@
+template:
+  -
+    Name: "HeapCreate -race 免杀"
+    Template: "static/templates/template1.tpl"
+    Module: "go"
+  -
+    Name: "HeapCreate 异或函数名寻址免杀"
+    Template: "static/templates/template2.tpl"
+    Module: "go"
+  -
+    Name: "syscall 系统调用免杀"
+    Template: "static/templates/template3.tpl"
+    Module: "go"
+  -
+    Name: "EarlyBird 早鸟技术免杀，挂起进程nodepad.exe"
+    Template: "static/templates/template4.tpl"
+    Module: "go"
+  - 
+    Name: "NTAllocVirtualMemory 系统调用免杀"
+    Template: "static/templates/template5.tpl"
+    Module: "go"
